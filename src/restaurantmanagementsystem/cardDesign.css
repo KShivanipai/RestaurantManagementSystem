@@ -1,0 +1,25 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 10, 2023, 7:53:50 PM
+    Author     : Shivani
+*/
+
+.card{
+    -fx-background-color:#fff;
+    -fx-background-radius:5px;
+}
+.shadow{
+    -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.5),5,0,0,0);
+    
+}
+.btn{
+    -fx-background-color:linear-gradient(to bottom right,#197394,#0e8168,#0e4180);
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+}
+.btn:hover{
+     -fx-background-color:linear-gradient(to bottom right,#40962f,#418f2e);
+}

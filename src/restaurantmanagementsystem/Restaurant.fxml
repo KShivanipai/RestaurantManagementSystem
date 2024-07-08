@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurantmanagementsystem.RestaurantController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane fx:id="si_loginForm" layoutX="300.0" layoutY="1.0" prefHeight="400.0" prefWidth="300.0" styleClass="white-form" stylesheets="@LoginDesign.css" AnchorPane.bottomAnchor="0.6000000000000227" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label layoutX="36.0" layoutY="72.0" styleClass="head-label" stylesheets="@LoginDesign.css" text="Login Account" textFill="#0e4180">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="si_username" layoutX="46.0" layoutY="145.0" onAction="#loginBtn" prefHeight="30.0" prefWidth="220.0" promptText="Username" styleClass="textfield" stylesheets="@LoginDesign.css" />
+                  <PasswordField fx:id="si_password" layoutX="46.0" layoutY="193.0" onAction="#loginBtn" prefHeight="30.0" prefWidth="220.0" promptText="Password" styleClass="textfield" stylesheets="@LoginDesign.css" />
+                  <Button fx:id="si_loginBtn" layoutX="46.0" layoutY="265.0" mnemonicParsing="false" onAction="#loginBtn" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@LoginDesign.css" text="Login" textFill="#418f2e" />
+                  <Hyperlink fx:id="si_forgotPass" layoutX="46.0" layoutY="235.0" onAction="#switchForgotPass" text="Forgot Password?" />
+               </children></AnchorPane>
+            <AnchorPane fx:id="su_signupForm" prefHeight="400.0" prefWidth="300.0" styleClass="white-form" stylesheets="@LoginDesign.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label layoutX="38.0" layoutY="73.0" styleClass="head-label" stylesheets="@LoginDesign.css" text="Register Account" textFill="#0e4180">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="su_username" layoutX="46.0" layoutY="121.0" onAction="#regBtn" prefHeight="30.0" prefWidth="220.0" promptText="Username" styleClass="textfield" stylesheets="@LoginDesign.css" />
+                  <PasswordField fx:id="su_password" layoutX="46.0" layoutY="163.0" onAction="#regBtn" prefHeight="30.0" prefWidth="220.0" promptText="Password" styleClass="textfield" stylesheets="@LoginDesign.css" />
+                  <Button fx:id="su_sign" layoutX="46.0" layoutY="297.0" mnemonicParsing="false" onAction="#regBtn" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@LoginDesign.css" text="Sign Up" textFill="#418f2e" />
+                  <ComboBox fx:id="su_question" layoutX="46.0" layoutY="206.0" prefHeight="30.0" prefWidth="220.0" promptText="Question" styleClass="textfield" stylesheets="@LoginDesign.css" />
+                  <TextField fx:id="su_answer" layoutX="46.0" layoutY="248.0" onAction="#regBtn" prefHeight="30.0" prefWidth="220.0" promptText="Answer" styleClass="textfield" stylesheets="@LoginDesign.css" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="side_form" prefHeight="400.0" prefWidth="300.0" styleClass="gradient" stylesheets="@LoginDesign.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label layoutX="82.0" layoutY="293.0" text="Create Account">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="side_CreateBtn" layoutX="40.0" layoutY="346.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="220.0" styleClass="create-btn" stylesheets="@LoginDesign.css" text="Create New Account" AnchorPane.bottomAnchor="21.19999999999999" />
+                  <FontAwesomeIcon fill="#573321ca" glyphName="LEAF" layoutX="90.0" layoutY="182.0" size="10em" text="" />
+                  <Label layoutX="42.0" layoutY="199.0" text="Restaurant Management System" textFill="#591f1fe2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="side_AlreadyHave" layoutX="40.0" layoutY="353.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="220.0" styleClass="create-btn" stylesheets="@LoginDesign.css" text="Already have an Account" visible="false" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="fp_questionForm" layoutX="300.0" layoutY="3.0" prefHeight="400.0" prefWidth="300.0" styleClass="white-form" stylesheets="@LoginDesign.css" visible="false">
+               <children>
+                  <Label layoutX="36.0" layoutY="72.0" styleClass="head-label" stylesheets="@LoginDesign.css" text="Forgot Password?" textFill="#0e4180">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="fp_proceedBtn" layoutX="48.0" layoutY="266.0" mnemonicParsing="false" onAction="#proceedBtn" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@LoginDesign.css" text="Proceed" textFill="#418f2e" />
+                  <ComboBox fx:id="fp_question" layoutX="48.0" layoutY="168.0" prefHeight="30.0" prefWidth="220.0" promptText="Question" styleClass="textfield" stylesheets="@LoginDesign.css" />
+                  <TextField fx:id="fp_answer" layoutX="50.0" layoutY="210.0" prefHeight="30.0" prefWidth="220.0" promptText="Answer" styleClass="textfield" stylesheets="@LoginDesign.css" />
+                  <Button fx:id="fp_back" layoutX="115.0" layoutY="347.0" mnemonicParsing="false" onAction="#backToLoginForm" prefHeight="31.0" prefWidth="69.0" styleClass="login-btn" stylesheets="@LoginDesign.css" text="Back">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="ANGLE_LEFT" size="1.5em" />
+                     </graphic>
+                  </Button>
+                  <TextField fx:id="fp_username" layoutX="48.0" layoutY="125.0" prefHeight="30.0" prefWidth="220.0" promptText="Username" styleClass="textfield" stylesheets="@LoginDesign.css" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="np_newPassForm" layoutX="300.0" layoutY="3.0" prefHeight="400.0" prefWidth="300.0" styleClass="textfield" stylesheets="@LoginDesign.css" visible="false">
+               <children>
+                  <Label layoutX="36.0" layoutY="72.0" styleClass="head-label" stylesheets="@LoginDesign.css" text="Forgot Password?" textFill="#0e4180">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="np_newPassword" layoutX="41.0" layoutY="141.0" onAction="#changePassBtn" prefHeight="30.0" prefWidth="220.0" promptText="Enter New Password" />
+                  <PasswordField fx:id="np_confirmPassword" layoutX="41.0" layoutY="185.0" onAction="#changePassBtn" prefHeight="30.0" prefWidth="220.0" promptText="Re-enter Password" />
+                  <Button fx:id="np_changePassBtn" layoutX="41.0" layoutY="230.0" mnemonicParsing="false" onAction="#changePassBtn" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@LoginDesign.css" text="Change Password" textFill="#418f2e" />
+                  <Button fx:id="np_back" layoutX="115.0" layoutY="347.0" mnemonicParsing="false" onAction="#backToQuestionForm" prefHeight="31.0" prefWidth="69.0" styleClass="login-btn" stylesheets="@LoginDesign.css" text="Back">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="ANGLE_LEFT" size="1.5em" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

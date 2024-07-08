@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 30, 2023, 5:15:52 AM
+    Author     : Shivani
+*/
+
+.gradient{
+    -fx-background-color:linear-gradient(to bottom right,#197394,#0e8168,#0e4180);
+}
+
+
+.white-form{
+    -fx-background-color:#fff;
+}
+
+.head-label{
+    -fx-border-color:#286155;
+    -fx-border-width:0 0 0 2px;
+    -fx-padding:0 0 0 5px;
+}
+
+.login-btn{
+    -fx-background-color:linear-gradient(to bottom right,#197394,#1d6a89);
+    -fx-background-radius:5px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+}
+
+.login-btn:hover{
+    -fx-background-color:linear-gradient(to bottom right,#40962f,#418f2e);
+}
+
+.textfield{
+    -fx-background-color:transparent;
+    -fx-border-color:linear-gradient(to bottom right,#197394,#0e8168,#0e4180);
+    -fx-border-width:0.6px;
+}
+.textfield:focused{
+     -fx-border-width:1px;
+  }
+  
+  
+  .create-btn{
+      -fx-background-color:transparent;
+      -fx-cursor:hand;
+      -fx-text-fill:#fff;
+      -fx-border-color:#fff;
+      -fx-border-width:1px;
+  }
+  .create-btn:hover{
+      -fx-background-color:#fff;
+      -fx-text-fill:#000;
+  }
