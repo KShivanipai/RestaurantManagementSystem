@@ -22,14 +22,14 @@ The Restaurant Billing System is a comprehensive software solution developed usi
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/restaurant-billing-system.git
-    cd restaurant-billing-system
+    git clone https://github.com/yourusername/RestaurantBillingSystem.git
+    cd RestaurantBillingSystem
     ```
 
 2. **Set up the MySQL database:**
     - Install MySQL if it's not already installed.
     - Create a database for the project.
-    - Execute the SQL script (`schema.sql`) provided in the repository to set up the necessary tables.
+    - Execute the SQL script provided in the repository to set up the necessary tables.
 
 3. **Configure the database connection:**
     - Update the database connection details in the `DatabaseConnection.java` file.
