@@ -2,13 +2,13 @@
 
 ## Overview
 
-The Restaurant Billing System is a comprehensive software solution developed using JavaFX, Scene Builder, and MySQL. This system allows administrators and cashiers to efficiently manage meals and drinks, track customer data, calculate total profit, and visualize customer trends. It aims to streamline restaurant operations and provide valuable insights for effective management.
+The Restaurant Billing System is a comprehensive software solution developed using JavaFX, Scene Builder, and MySQL. This system allows administrators and cashiers to efficiently manage meals and drinks, track customer data, calculate total income, and visualize customer trends. It aims to streamline restaurant operations and provide valuable insights for effective management.
 
 ## Features
 
 - **CRUD Operations:** Seamless creation, reading, updating, and deletion of meal and drink items.
 - **Customer Data Tracking:** Keeps records of customer interactions over time.
-- **Profit Calculation:** Automatically calculates total profits earned.
+- **Profit Calculation:** Automatically calculates total income earned.
 - **Data Visualization:** Displays a bar chart showing days against the number of customers.
 
 ## Technologies Used
@@ -44,20 +44,28 @@ The Restaurant Billing System is a comprehensive software solution developed usi
 1. **Admin Access:**
     - Log in as an admin to manage meals and drinks.
     - Add, edit, or delete menu items.
-    - View customer data and profits.
+    - View customer data and income.
 
 2. **Cashier Access:**
     - Log in as a cashier to handle customer orders.
     - Generate bills for customers.
-    - Track the number of customers and daily profits.
+    - Track the number of customers and daily income.
 
 ## Screenshots
+![Screenshot 1](https://github.com/user-attachments/assets/76310cca-306f-4939-83ab-55b5200d7ca0)
+*Login Page*
 
-![Dashboard](screenshots/dashboard.png)
-*Dashboard showing profit and customer data*
 
-![Menu Management](screenshots/menu_management.png)
+![Screenshot 2](https://github.com/user-attachments/assets/d3cb7fe8-0f1d-460c-b5bc-c2ff55ca9bdb)
+*Dashboard showing income and customer chart*
+
+
+
+![Screenshot 3](https://github.com/user-attachments/assets/24c21900-ce8e-457b-bb0e-c2544640f354)
+*Inventory*
+
+![Screenshot 4](https://github.com/user-attachments/assets/d26c5c58-fe52-4cc0-b855-1089296e647d)
 *Menu management interface*
 
-![Customer Trends](screenshots/customer_trends.png)
-*Bar chart visualizing customer trends*
+![Screenshot 5](https://github.com/user-attachments/assets/b4c5ce2b-2451-4780-8fa9-4d44893f4e71)
+*Customer Details*
