@@ -32,7 +32,7 @@ The Restaurant Billing System is a comprehensive software solution developed usi
     - Execute the SQL script provided in the repository to set up the necessary tables.
 
 3. **Configure the database connection:**
-    - Update the database connection details in the `DatabaseConnection.java` file.
+    - Update the database connection details in the `Database.java` file.
     - Ensure that the JDBC driver is included in your project's classpath.
 
 4. **Run the application:**
