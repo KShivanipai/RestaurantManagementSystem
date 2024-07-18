@@ -1,4 +1,4 @@
-# Restaurant Billing System
+# Restaurant Management System
 
 ## Overview
 
