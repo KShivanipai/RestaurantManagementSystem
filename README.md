@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Restaurant Billing System is a comprehensive software solution developed using JavaFX, Scene Builder, and MySQL. This system allows administrators and cashiers to efficiently manage meals and drinks, track customer data, calculate total income, and visualize customer trends. It aims to streamline restaurant operations and provide valuable insights for effective management.
+The Restaurant Management System is a comprehensive software solution developed using JavaFX, Scene Builder, and MySQL. This system allows administrators and cashiers to efficiently manage meals and drinks, track customer data, calculate total income, and visualize customer trends. It aims to streamline restaurant operations and provide valuable insights for effective management.
 
 ## Features
 
@@ -22,8 +22,8 @@ The Restaurant Billing System is a comprehensive software solution developed usi
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/RestaurantBillingSystem.git
-    cd RestaurantBillingSystem
+    git clone https://github.com/KShivanipai/RestaurantManagementSystem.git
+    cd RestaurantManagementSystem
     ```
 
 2. **Set up the MySQL database:**
