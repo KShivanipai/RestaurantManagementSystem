@@ -52,7 +52,7 @@ The Restaurant Billing System is a comprehensive software solution developed usi
     - Track the number of customers and daily income.
 
 ## Screenshots
-![Screenshot 1](https://github.com/user-attachments/assets/76310cca-306f-4939-83ab-55b5200d7ca0)
+![Screenshot 1](https://github.com/user-attachments/assets/d78c1640-4abe-49e4-b53f-b39ec9f94260)
 *Login Page*
 
 
