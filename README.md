@@ -50,3 +50,14 @@ The Restaurant Billing System is a comprehensive software solution developed usi
     - Log in as a cashier to handle customer orders.
     - Generate bills for customers.
     - Track the number of customers and daily profits.
+
+## Screenshots
+
+![Dashboard](screenshots/dashboard.png)
+*Dashboard showing profit and customer data*
+
+![Menu Management](screenshots/menu_management.png)
+*Menu management interface*
+
+![Customer Trends](screenshots/customer_trends.png)
+*Bar chart visualizing customer trends*
