@@ -53,7 +53,7 @@ The Restaurant Billing System is a comprehensive software solution developed usi
 
 ## Screenshots
 ![Screenshot 1](https://github.com/user-attachments/assets/d78c1640-4abe-49e4-b53f-b39ec9f94260)
-* Login Page*
+*Login Page*
 
 
 ![Screenshot 2](https://github.com/user-attachments/assets/d3cb7fe8-0f1d-460c-b5bc-c2ff55ca9bdb)
